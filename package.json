@@ -1,0 +1,25 @@
+{
+  "name": "readRFID",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "readRFID",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matrix-yang/readRFID.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matrix-yang/readRFID/issues"
+  },
+  "homepage": "https://github.com/matrix-yang/readRFID#readme"
+}
