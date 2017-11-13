@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db904143-01b3-4c4b-959b-b94a63d55b98" name="Default" comment="修改成功的回调">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+    <list default="true" id="db904143-01b3-4c4b-959b-b94a63d55b98" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -592,7 +591,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510545235425</updated>
-      <workItem from="1510545236900" duration="2370000" />
+      <workItem from="1510545236900" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="修改成功的回调">
       <created>1510555816378</created>
@@ -601,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510555816378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="打包插件">
+      <created>1510556246589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510556246589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2370000" />
+    <option name="totallyTimeSpent" value="2392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1098" extended-state="6" />
@@ -649,7 +655,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改成功的回调" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改成功的回调" />
+    <MESSAGE value="打包插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包插件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
