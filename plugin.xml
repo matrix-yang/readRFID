@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="readRFID" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>readRFID</name>
+    <js-module name="readRFID" src="www/readRFID.js">
+        <clobbers target="cordova.plugins.readRFID"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="readRFID">
+                <param name="android-package" value="readRFID.readRFID"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/readRFID.java" target-dir="src/readRFID/readRFID"/>
+        <source-file src="src/android/uhf.jar" target-dir="libs"/>
+    </platform>
+</plugin>
