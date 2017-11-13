@@ -16,7 +16,7 @@ public class readRFID extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("read")) {
             String message = args.getString(0);
-            callbackContext.success(message);
+            callbackContext.success("success");
             return true;
         }
         callbackContext.error("Expected one non-empty string argument.");
